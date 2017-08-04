@@ -26,17 +26,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Username"
+        android:text="Nome"
         android:ems="10"
         android:id="@+id/editText" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Password"
-        android:ems="10"
-        android:id="@+id/editText2" />
 
     <EditText
         android:layout_width="match_parent"
@@ -45,6 +37,23 @@
         android:ems="10"
         android:id="@+id/editText4"
         android:text="Email" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Senha"
+        android:ems="10"
+        android:id="@+id/editText2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Confirmar senha"
+        android:ems="10"
+        android:id="@+id/editText6"
+        android:layout_weight="0.24" />
 
     <RadioGroup
         android:layout_width="match_parent"
