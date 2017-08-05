@@ -14,7 +14,51 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <Button
+            android:text="ESCOLA 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_weight="0.06" />
+
+        <Button
+            android:text="ESCOLA 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_weight="0.06" />
+
+        <Button
+            android:text="ESCOLA 3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:layout_weight="0.06" />
+
+        <Button
+            android:text="ESCOLA 4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button8"
+            android:layout_weight="0.06" />
+
+        <Button
+            android:text="ESCOLA5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            android:layout_weight="0.06" />
+
+        <Button
+            android:text="ESCOLA 6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button9"
+            android:layout_weight="0.06" />
 
     </LinearLayout>
+
 </LinearLayout>

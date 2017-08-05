@@ -1,5 +1,6 @@
 package br.paulo.helloworld;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,5 +16,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void mostrarMensagem(View parametro){
         Toast.makeText(this, "TESTE DE TEXTO NO TOAST", Toast.LENGTH_LONG).show();
+    }
+
+    public void mostrarTelaLogin(View parametro){
+        Intent it = new Intent(this, LoginActivity.class);
+        startActivity(it);
     }
 }

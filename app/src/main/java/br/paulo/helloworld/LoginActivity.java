@@ -34,6 +34,7 @@ public class LoginActivity extends AppCompatActivity {
     */
 
     public void efetuarLogin(View parametro){
-        Toast.makeText(this, "TESTE DE BOTÃO", Toast.LENGTH_LONG).show();
+        Intent it = new Intent(this, TelaPrincipalActivity.class);
+        startActivity(it);
     }
 }
