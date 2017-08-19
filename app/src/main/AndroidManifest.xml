@@ -9,11 +9,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-            <!--<intent-filter>
+
+            <!--
+            <intent-filter>
                 <action android:name="HELLO_2_ACTION" />
                 <category android:name="HELLO_2_CATEGORY" />
                 <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter> -->
+            </intent-filter>
+            -->
         </activity>
         <activity android:name=".LoginActivity">
             <intent-filter>
@@ -22,7 +25,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TelaPrincipalActivity"></activity>
+        <activity android:name=".TelaPrincipalActivity" />
+        <activity android:name=".ListaActivity"></activity>
     </application>
 
 </manifest>
